@@ -1,0 +1,8 @@
+<h3>Root partners!</h3>
+
+<button (click)="addPartner()">Add root partner</button>
+
+<a [routerLink]="[ { outlets: { editArea: ['addRootPartner'] }} ]">Add root partner</a>
+
+<!-- edit area outlet -->
+<router-outlet name="editArea"></router-outlet>
